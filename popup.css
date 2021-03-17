@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    min-width: max-content;
+    min-height: max-content;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family:monospace;
+    box-shadow: 0 0 20px rgba(214, 149, 149, 0.15);
+    text-align: center;
+    border-right: 2px solid #7e7e7e;
+}
+
+.subject{
+    font-size: 1em;
+}
+
+.styled-table thead tr th.subject{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px 5px;
+}
+
+.styled-table thead th:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.styled-table thead:last-child {
+    border-bottom: 3px solid #7e7e7e;
+}
+.styled-table thead th.field {
+    font-weight: bold;
+    color: #000000;
+}

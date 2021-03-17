@@ -1,0 +1,26 @@
+{
+    "name": "IP Information ",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Obtain IP information",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "popup.js"
+            ]
+        }
+    ],
+    "description": "This is an IP Information extention",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
