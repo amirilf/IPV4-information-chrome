@@ -1,1 +1,1 @@
-This is an useful and simple Extention to get information about IP4 address 
+This is an useful and simple Extention to get IP4 address 
